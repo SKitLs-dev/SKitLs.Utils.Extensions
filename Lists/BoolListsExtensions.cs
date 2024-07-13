@@ -1,7 +1,7 @@
 ﻿namespace SKitLs.Utils.Extensions.Lists
 {
     /// <summary>
-    /// Provides extension methods for IEnumerable of boolean values.
+    /// Provides extension methods for <see cref="IEnumerable{T}"/> of boolean values.
     /// </summary>
     public static class BoolListsExtensions
     {

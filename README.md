@@ -1,20 +1,12 @@
-﻿# SKitLs.Data.Core ![Static Badge](https://img.shields.io/badge/Follow%20GitHub%20-%20black?logo=github&link=https%3A%2F%2Fgithub.com%2FSKitLs-Dev%2FSKitLs.Data.Core.git) ![GitHub](https://img.shields.io/github/license/SKitLs-Dev/SKitLs.Data.Core) ![Nuget](https://img.shields.io/nuget/v/SKitLs.Data.Core)
+﻿# SKitLs.Utils.Extensions ![Static Badge](https://img.shields.io/badge/Follow%20GitHub%20-%20black?logo=github&link=https%3A%2F%2Fgithub.com%2FSKitLs-Dev%2FSKitLs.Utils.Extensions.git) ![GitHub](https://img.shields.io/github/license/SKitLs-Dev/SKitLs.Utils.Extensions) ![Nuget](https://img.shields.io/nuget/v/SKitLs.Utils.Extensions)
 
 _README version: 24.VII_
 
-SKitLs.Data.Core is a powerful C# library designed to streamline data management.
-It offers a unified interface for handling data, ensuring automatic data persistence and real-time updates through event notifications.
+SKitLs.Utils.Extensions is a comprehensive .NET/C# library designed to enhance developer productivity by providing a wide range of utility extensions and solutions.
 
-The key functionalities of this extension include:
-  
-1. Automatic ID Assignment
-    Ensures unique identifiers for data entries.
-2. Data Uniqueness
-    Maintains the uniqueness of data across data banks.
-3. Automatic Persistence
-    Automatically reads and saves data when changes occur using Reader/Writer classes.
-4. Event Notification System
-    Notifies subscribed methods of data changes in real-time.
+This library focuses on augmenting the functionality of arrays, particularly for boolean and numerical types, as well as introducing advanced randomization methods and string manipulations.
+
+By addressing common limitations and simplifying everyday coding tasks, SKitLs.Utils.Extensions aims to streamline the development process and improve code efficiency in .NET applications.
 
 ## Setup
 
@@ -28,7 +20,7 @@ The key functionalities of this extension include:
     2. Run command:
     
     ```
-    dotnet add package SKitLs.Data.Core
+    dotnet add package SKitLs.Utils.Extensions
     ```
 
 2. Using NuGet Packages Manager:
@@ -59,7 +51,7 @@ Refer to the project's documentation for any additional steps or considerations.
 
 ## Usage
 
-To get up-to-dated usage examples, please visit [wiki](https://github.com/SKitLs-dev/SKitLs.Data.Core/wiki).
+To get up-to-dated usage examples, please visit [wiki](https://github.com/SKitLs-dev/SKitLs.Utils.Extensions/wiki).
 
 ## Contributors
 

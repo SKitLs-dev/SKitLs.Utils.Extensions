@@ -1,26 +1,30 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SKitLs.Utils.Extensions.Strings
+﻿namespace SKitLs.Utils.Extensions.Strings
 {
-    public class StringExtension(string value)
+    /// <summary>
+    /// Provides extension methods for <see cref="string"/> objects.
+    /// </summary>
+    public static class StringExtension
     {
-        public string Value { get; set; } = value ?? throw new ArgumentNullException(nameof(value));
-        public StringExtension() : this(string.Empty) { }
-
-        public override string ToString() => Value;
-
-        public static implicit operator StringExtension(string input) => new(input);
-        public static implicit operator string(StringExtension input) => input.Value;
-        public static string operator *(int count, StringExtension input)
+        /// <summary>
+        /// Repeats the specified string a given number of times.
+        /// </summary>
+        /// <param name="value">The string to be repeated.</param>
+        /// <param name="count">The number of times to repeat the string.</param>
+        /// <returns>A new <see cref="string"/> consisting of the original string repeated the specified number of times.</returns>
+        /// <exception cref="ArgumentNullException">Thrown when the string value is null.</exception>
+        /// <exception cref="ArgumentOutOfRangeException">Thrown when the count is negative.</exception>
+        public static string Multiply(this string value, int count)
         {
+            ArgumentNullException.ThrowIfNull(value);
+            if (count < 0)
+                throw new ArgumentOutOfRangeException(nameof(count), "Count cannot be negative.");
+
             var result = string.Empty;
             for (int i = 0; i < count; i++)
-                result += input.ToString();
+                result += value.ToString();
             return result;
         }
+        
+        // TODO Fit "10", 5 => "00010"
     }
 }
