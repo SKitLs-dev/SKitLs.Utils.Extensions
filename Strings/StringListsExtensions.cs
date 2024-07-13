@@ -6,10 +6,10 @@
     public static class StringListsExtensions
     {
         /// <summary>
-        /// Trims whitespace from each string in the specified <see cref="IEnumerable{string}"/> collection.
+        /// Trims whitespace from each string in the specified <see cref="IEnumerable{T}"/> collection.
         /// </summary>
         /// <param name="list">The collection of strings to trim.</param>
-        /// <returns>A new <see cref="IEnumerable{string}"/> containing the trimmed strings.</returns>
+        /// <returns>A new <see cref="IEnumerable{T}"/> containing the trimmed strings.</returns>
         /// <exception cref="ArgumentNullException">Thrown when the list is null.</exception>
         public static IEnumerable<string> TrimAll(this IEnumerable<string> list)
         {

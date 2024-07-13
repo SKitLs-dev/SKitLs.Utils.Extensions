@@ -26,7 +26,7 @@
         /// <param name="swift">The amount to shift each number.</param>
         /// <returns>The modified <see cref="List{int}"/> with each number shifted by the specified amount.</returns>
         /// <exception cref="ArgumentNullException">Thrown when the list is null.</exception>
-        public static List<int> SwiftNums(this List<int> list, int swift)
+        public static List<int> ShiftValues(this List<int> list, int swift)
         {
             ArgumentNullException.ThrowIfNull(list);
 

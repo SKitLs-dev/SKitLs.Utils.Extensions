@@ -8,7 +8,7 @@
     <Title>SKitLs.Utils.Extensions</Title>
     <Authors>SKitLs, Sargeras02</Authors>
     <Copyright>Copyright (C) SKitLs 2024</Copyright>
-    <AssemblyVersion>0.1.0</AssemblyVersion>
+    <AssemblyVersion>0.1.1</AssemblyVersion>
     <FileVersion>$(AssemblyVersion)</FileVersion>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
@@ -18,7 +18,12 @@
     <PackageProjectUrl>https://github.com/SKitLs-dev/SKitLs.Utils.Extensions</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>extensions arrays lists</PackageTags>
-    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <PackageReleaseNotes>(+) Added: [IEnum] JoinString()
+(~) Fixed: [IEnum] Shuffle()
+
+(~) Renamed: [int] SwiftNums -&gt; ShiftValues
+
+(~) Updated: Documentation</PackageReleaseNotes>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
 

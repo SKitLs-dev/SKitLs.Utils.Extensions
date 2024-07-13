@@ -23,13 +23,28 @@
 
             var mask = source.Count().ToRange();
             var result = new List<T>();
-            while (source.Any())
+            while (mask.Count > 0)
             {
                 var index = Random.Next(mask.Count);
-                result.Add(source.ElementAt(index));
+                result.Add(source.ElementAt(mask[index]));
                 mask.RemoveAt(index);
             }
             return result;
+        }
+
+        /// <summary>
+        /// Concatenates all the values in the specified <see cref="IEnumerable{T}"/> collection <paramref name="list"/>, using the specified <paramref name="separator"/> between each string.
+        /// </summary>
+        /// <param name="list">The collection of strings to concatenate.</param>
+        /// <param name="separator">The separator to use between each string.</param>
+        /// <returns>A single concatenated <see cref="string"/> with each string in the collection separated by the specified separator.</returns>
+        /// <exception cref="ArgumentNullException">Thrown when the list or the separator is null.</exception>
+        public static string JoinString<T>(this IEnumerable<T> list, string separator = ", ")
+        {
+            ArgumentNullException.ThrowIfNull(list);
+            ArgumentNullException.ThrowIfNull(separator);
+
+            return string.Join(separator, list);
         }
 
         /// <summary>
