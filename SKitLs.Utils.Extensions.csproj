@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>SKitLs.Utils.Extensions</Title>
+    <Authors>SKitLs, Sargeras02</Authors>
+    <Copyright>Copyright (C) SKitLs 2024</Copyright>
+    <AssemblyVersion>0.0.5</AssemblyVersion>
+    <FileVersion>$(AssemblyVersion)</FileVersion>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Version>0.0.5-alpha.3</Version>
+    <PackageIcon>libIcon_extensions.png</PackageIcon>
+    <Description>(+) Added: NumListsExtensions.FirstAvailableValue()</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\libIcon_extensions.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE">
+      <PackagePath>\</PackagePath>
+      <Pack>True</Pack>
+    </None>
+  </ItemGroup>
+
+</Project>
