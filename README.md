@@ -8,9 +8,19 @@ This library focuses on augmenting the functionality of arrays, particularly for
 
 By addressing common limitations and simplifying everyday coding tasks, SKitLs.Utils.Extensions aims to streamline the development process and improve code efficiency in .NET applications.
 
-## Setup
+# Table of contents
 
-### Installation
+- [Setup](#Setup)
+  - [Installation](#Installation)
+- [Usage](#Usage)
+- [Contributors](#Contributors)
+- [License](#License)
+- [Developer contact][#Developer-Contact]
+- [NotesNotes](#NotesNotes)
+
+# Setup
+
+## Installation
 
 1. Using Terminal Command:
     
@@ -49,11 +59,11 @@ By addressing common limitations and simplifying everyday coding tasks, SKitLs.U
 Please note that each method may have specific requirements or configurations that need to be followed for successful installation.
 Refer to the project's documentation for any additional steps or considerations.
 
-## Usage
+# Usage
 
 To get up-to-dated usage examples, please visit [wiki](https://github.com/SKitLs-dev/SKitLs.Utils.Extensions/wiki).
 
-## Contributors
+# Contributors
 
 Currently, there are no contributors actively involved in this project.
 However, our team is eager to welcome contributions from anyone interested in advancing the project's development.
@@ -63,13 +73,13 @@ Your participation will be greatly appreciated in moving the project forward.
 
 Thank you for considering contributing to our project.
 
-## License
+# License
 
 This project is distributed under the terms of the MIT License.
 
 Copyright (C) 2024, SKitLs
 
-## Developer contact
+# Developer contact
 
 For any issues related to the project, please feel free to reach out to us through the project's GitHub page.
 We welcome bug reports, feedback, and any other inquiries that can help us improve the project.
@@ -79,6 +89,6 @@ You can also contact the project owner directly via their GitHub profile at the 
 Your collaboration and support are highly appreciated, and we will do our best to address any concerns or questions promptly and professionally.
 Thank you for your interest in our project.
 
-## Notes
+# Notes
 
 Thank you for choosing our solution for your needs, and we look forward to contributing to your project's success.

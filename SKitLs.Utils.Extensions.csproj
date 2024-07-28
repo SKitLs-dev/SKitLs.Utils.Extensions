@@ -8,7 +8,7 @@
     <Title>SKitLs.Utils.Extensions</Title>
     <Authors>SKitLs, Sargeras02</Authors>
     <Copyright>Copyright (C) SKitLs 2024</Copyright>
-    <AssemblyVersion>0.1.1</AssemblyVersion>
+    <AssemblyVersion>0.2.0</AssemblyVersion>
     <FileVersion>$(AssemblyVersion)</FileVersion>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
@@ -18,20 +18,13 @@
     <PackageProjectUrl>https://github.com/SKitLs-dev/SKitLs.Utils.Extensions</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>extensions arrays lists</PackageTags>
-    <PackageReleaseNotes>(+) Added: [IEnum] JoinString()
-(~) Fixed: [IEnum] Shuffle()
+    <PackageReleaseNotes>(+) Added: [IEnum&lt;string&gt;] JoinAll()
 
-(~) Renamed: [int] SwiftNums -&gt; ShiftValues
-
-(~) Updated: Documentation</PackageReleaseNotes>
+(~) Updated: Readme</PackageReleaseNotes>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="..\..\SKitLs.Data\SKitLs.Data.Core\README.md">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
     <None Include="..\libIcon_extensions.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
@@ -42,6 +35,10 @@
     <None Update="LICENSE">
       <PackagePath>\</PackagePath>
       <Pack>True</Pack>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
 
